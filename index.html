@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ccb2a44754.js" crossorigin="anonymous"></script>
+  <title>Shopper</title>
+</head>
+
+<body>
+
+  <div class="navbar navbar-expand-lg bg-light navbar-light">
+    <div class="container  cont ">
+      <div>
+
+
+        <i class="fa-solid fa-truck"></i> <span class="span1"> FREE SHIPPING WORLDWIDE</span>
+
+      </div>
+      <button class="navbar-toggler" id="toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ul">
+          <li class="nav-item">
+
+            <div class="dropdown">
+              <span class=" span  dropdown-toggle " href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="images/united-states.png" class="img" alt="united-states flag icon"> United States
+              </span>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">
+                    <img src="images/canada.png" class="img" alt="canada flag icon"> Canada
+                  </a></li>
+                <li><a class="dropdown-item" href="#">
+                    <img src="images/germany.png" class="img" alt="germany flag icon"> Germany
+                  </a></li>
+
+              </ul>
+            </div>
+
+
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <span class=" span2 dropdown-toggle " href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                USD
+              </span>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">
+                    USD
+                  </a></li>
+                <li><a class="dropdown-item" href="#">
+                    EUR
+                  </a></li>
+
+              </ul>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <div class="dropdown" style="margin-right: 80px ;">
+              <span class=" span2  dropdown-toggle " href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                English
+              </span>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">
+                    English
+                  </a></li>
+                <li><a class="dropdown-item" href="#">
+                    French
+                  </a></li>
+                <li><a class="dropdown-item" href="#">
+                    German
+                  </a></li>
+
+              </ul>
+            </div>
+          </li>
+
+        </ul>
+        <div class="mr">
+          <ul class="navbar-nav me-5 ">
+            <li class="nav-item me-4">
+              Shipping
+            </li>
+            <li class="nav-item me-4">
+              FAQ
+            </li>
+            <li class="nav-item me-4">
+              Contact
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="me-5">
+          <ul class="navbar-nav ms in">
+            <li class="nav-item me-2  "><i class="fa-brands fa-facebook-f"></i></li>
+            <li class="nav-item me-2 "><i class="fa-brands fa-twitter"></i></li>
+            <li class="nav-item me-2 "><i class="fa-brands fa-instagram"></i></li>
+            <li class="nav-item "> <i class="fa-brands fa-medium"></i></li>
+
+
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- SECOND NAVBAR -->
+  <div class="navbar navbar-expand-lg navbar-light">
+    <div class="container cont">
+      <a class="navbar-brand" style="font-weight:600 ; font-size: 1.7rem; " href="#">Shopper.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr ">
+          <li class="nav-item dropdown ">
+            <span class=" nav-link a px-3" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Home
+            </span>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">
+                  cannes
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  bola
+                </a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <span class=" nav-link a px-3" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Catalog
+            </span>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">
+                  cannes
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  bola
+                </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <span class=" nav-link a px-3" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shop
+            </span>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">
+                  cannes
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  bola
+                </a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <span class=" nav-link a px-3" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </span>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">
+                  cannes
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  bola
+                </a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown ">
+            <span class=" nav-link a px-3" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+              aria-expanded="false">
+
+              Blog
+            </span>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">
+                  cannes
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  bola
+                </a></li>
+            </ul>
+          </li>
+
+
+
+
+
+        </div>
+        <div class="d-inline">
+          <ul class="navbar-nav d-inline  ">
+            <li class="nav-item d-inline me-2 ">
+              <a href="#" class="a nav-link d-inline ">
+                <img src="images/magnifying-glass.png" class="d-inline " width="25px" alt="">
+              </a>
+            </li>
+            <li class="nav-item d-inline me-1 ">
+              <a href="#" class="a nav-link d-inline ">
+                <img src="images/user.png" class="d-inline " width="20px" alt="">
+              </a>
+            </li>
+            <li class="nav-item d-inline me-1 ">
+              <a href="#" class="a nav-link d-inline ">
+                <img src="images/like.png" class="d-inline " width="20px" alt="">
+              </a>
+            </li>
+            <li class="nav-item d-inline me-1 ">
+              <a href="#" class="a nav-link d-inline ">
+                <img src="images/shopping-cart.png" class="d-inline " width="20px" alt="">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PROMO -->
+  <div class="py-3 bg-dark  mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Text -->
+          <div class="text-center text-white">
+            <!-- <span class="heading-xxs letter-spacing-xl"> -->
+            ⚡️ Happy Holiday Deals on Everything ⚡️
+            <!-- </span> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CATEGORIES   -->
+
+  <section id="cat">
+    <div class="contianer-fluid mb-3">
+      <div class="row gx-0">
+        <div class=" col col-12 col-lg-4 col-md-6 flex-column d-flex bg-cover  "
+          style="background-image: url(images/cover-1.jpg) ;">
+          <div class="card bg-dark-5  bg-hover  text-white text-center" style="min-height: 470px; border: none;">
+            <div class="card-body mb11 mt-auto py8">
+              <h1 class="fw-bolder mb-0">
+                Women
+              </h1>
+            </div>
+
+            <div class="card-body mt-auto mb-5 ">
+
+
+              <a class="btn btn-white py-3 px-3" style="border-radius: 0;" href="#">
+                Shop Women <i class="fa-solid fa-arrow-right px-2"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class=" col col-12 col-lg-4 col-md-6 flex-column d-flex bg-cover" id="cv2"
+          style="background-image: url(images/cover-2.jpg) ;">
+          <div class="card bg-dark-5  bg-hover  text-white text-center" style="min-height: 470px; border: none;">
+            <div class="card-body mb11 mt-auto py8">
+              <h1 class="fw-bolder mb-0">
+                Men
+              </h1>
+            </div>
+
+            <div class="card-body mt-auto mb-5 ">
+
+
+              <a class="btn btn-white py-3 px-3" style="border-radius: 0;" href="#">
+                Shop Men <i class="fa-solid fa-arrow-right px-2"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class=" col col-12 col-lg-4 col-md-6 flex-column d-flex bg-cover   " id="cv3"
+          style="background-image: url(images/cover-3.jpg) ;">
+          <div class="card bg-dark-5  bg-hover  text-white text-center" style="min-height: 470px; border: none;">
+            <div class="card-body mb11 mt-auto py8">
+              <h1 class="fw-bolder mb-0">
+                Kids
+              </h1>
+            </div>
+
+            <div class="card-body mt-auto mb-5 ">
+
+
+              <a class="btn btn-white py-3 px-3" style="border-radius: 0;" href="#">
+                Shop Kids <i class="fa-solid fa-arrow-right px-2"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+  <!-- FEATURES -->
+  <section>
+    <div class="container mt-4">
+      <div class="row pb-2  ">
+        <div class="col-lg-3 col-md-6  col-12">
+          <div class="d-flex">
+            <i class="fa-solid fa-truck px-3" style="color:orange ;"></i>
+
+            <div class="ms-2">
+              <h6 class="mb-1 heading-xxs"> FREE SHIPPING</h6>
+              <p class="text-muted"> From all orders over $100</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-12">
+          <div class="d-flex">
+            <i class="fa-solid fa-repeat px-3" style="color:orange ;"></i>
+
+            <div class="ms-2">
+              <h6 class="mb-1 heading-xxs"> FREE RETURNS</h6>
+              <p class="text-muted"> Return money within 30 days</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-12">
+          <div class="d-flex">
+            <i class="fa-solid fa-lock px-3" style="color:orange ;"></i>
+
+            <div class="ms-2">
+              <h6 class="mb-1 heading-xxs"> SECURE SHOPPING</h6>
+              <p class="text-muted"> You're in safe hands</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  col-12">
+          <div class="d-flex">
+            <i class="fa-solid fa-tag px-3" style="color:orange ;"></i>
+
+            <div class="ms-2">
+              <h6 class="mb-1 heading-xxs"> OVER 10,000 STYLES</h6>
+              <p class="text-muted"> We have everything you need</p>
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <hr>
+
+    </div>
+  </section>
+
+  <!-- BEST PICKS -->
+
+  <section class="pt-12" id="best">
+    <div class="container">
+      <div class="row   justify-content-center mt-5">
+        <div class="col-12 mb-4 col-md-10 col-lg-8 col-xl-6 text-center">
+          <h6 class="text-muted heading-xxs"> NEW COLLECTION</h6>
+         
+          <h2 class="md-3"> Best Picks 2019</h2>
+          <p class="mb-" style="color: #525252!important;"> Appear, dry there darkness they're seas, dry waters thing
+            fly midst. Beast, above fly brought Very green. </p>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 col-12 col-lg-4 d-flex flex-column text-center">
+            <div class="card mb-5 text-white" style="min-height:400px ;">
+              <div class="card-bg">
+                <div class="card-img bg-cover " style="background-image: url(images/product-1.jpg) ;"></div>
+
+              </div>
+              <div class="card-body my-auto text-center ">
+                <h4 class="mb-0 ">Bags Collection</h4>
+                <a href="#" class="btn btn-link text-reset a" style="color: white !important; ">
+                  Shop Now
+                  <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 col-12 col-lg-8 d-flex flex-column text-center">
+            <div class="card mb-5 text-dark" style="min-height:400px ;">
+              <div class="card-bg">
+                <div class="card-img bg-cover " style="background-image: url(images/product-2.jpg) ;"></div>
+
+              </div>
+              <div class="card-body px-md-5 my-auto text-center text-md-start">
+                <h4 class="mb-0">Printed men's shirts</h4>
+                <a href="#" class="btn btn-link text-reset a " style="padding-left: 0 ;">
+                  Shop Now
+                  <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 col-12 col-lg-8 d-flex flex-column text-center">
+            <div class="card mb-5 text-dark" style="min-height:400px ;">
+              <div class="card-bg">
+                <div class="card-img bg-cover " style="background-image: url(images/product-3.jpg) ;"></div>
+
+              </div>
+              <div class="card-body px-md-5 my-auto text-center text-md-start">
+                <h4 class="mb-0">Basic women's Dresses</h4>
+                <a href="#" class="btn btn-link text-reset a " style="padding-left: 0 ;">
+                  Shop Now
+                  <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-12 col-lg-4 d-flex flex-column text-center">
+            <div class="card mb-5 text-white" style="min-height:400px ;">
+              <div class="card-bg">
+                <div class="card-img bg-cover " style="background-image: url(images/product-4.jpg) ;"></div>
+
+              </div>
+              <div class="card-body my-auto text-center">
+                <h4 class="mb-0"> Sweatshirt</h4>
+                <a href="#" class="btn btn-link text-reset a" style="color: white !important; ">
+                  Shop Now
+                  <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP SELLERS -->
+  <section class="pt-5" id="x">
+    <div class="container">
+      <div class="row">
+        <div class="col-12  text-center ">
+          <h2 class="py-3" style="font-size:2.5rem ;"> Top month Sellers</h2>
+          <div class=" d-flex text-center justify-content-center">
+            <a href="#" class="pe-4 sel " style="color: #ff6f61; ;">
+              <h5> Women</h5>
+            </a>
+            <a href="#" class="ps-3 sel" style="color: black ; text-decoration: none;">
+              <h5> Men</h5>
+            </a>
+            <a href="#" class="ps-5 sel text-dark" style="text-decoration: none;">
+              <h5> Kids</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-5">
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ; ">
+            <div class="card-bg" id="heels">
+              <div class="card-img bg-cover heels position-relative">
+                <span class="badge">New</span>
+                <div class="container d-flex justify-content-cente position-relative">
+                  <div class="row eyes" id="cir">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png"  style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">Shoes</p>
+            <h6 class="pt-0">
+              Leather mid-heel Sandals
+            </h6>
+            <p class="text-muted"> $129.00</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ;">
+            <div class="card-bg" id="dress">
+              <div class="card-img bg-cover dress position-relative">
+
+                <div class="container d-flex justify-content-cente position-relative">
+                  <div class="row eyes" id="cir3">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png" style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">Shoes</p>
+            <h6 class="pt-0">
+              Leather mid-heel Sandals
+            </h6>
+            <p class="text-muted"> $129.00</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ;">
+            <div class="card-bg" id="sneak">
+              <div class="card-img bg-cover sneak position-relative">
+                <span class="badge bg-dark text-white">SALE</span>
+                <div class="container d-flex justify-content-center position-relative">
+                  <div class="row eyes" id="cir4">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png" style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">Shoes</p>
+            <h6 class="pt-0">
+              Leather Sneakers
+            </h6>
+            <p class="text-muted d-inline" style="text-decoration:line-through ;"> $85.00</p>
+            <p class="d-inline" style="color: #ff6f61; text-decoration: none !important;"> $80.00</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ;">
+            <div class="card-bg" id="crop">
+              <div class="card-img bg-cover crop position-relative">
+
+                <div class="container d-flex justify-content-cente position-relative">
+                  <div class="row eyes" id="cir5">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png" style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">Top</p>
+            <h6 class="pt-0">
+              Cropped cotton Top
+            </h6>
+            <p class="text-muted"> $29.00</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ;">
+            <div class="card-bg" id="gown">
+              <div class="card-img bg-cover gown position-relative">
+
+                <div class="container d-flex justify-content-cente position-relative">
+                  <div class="row eyes" id="cir6">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png" style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">Dresses</p>
+            <h6 class="pt-0">
+              Floral print midi Dress
+            </h6>
+            <p class="text-muted"> $50.00</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ; ">
+            <div class="card-bg" id="bag">
+              <div class="card-img bg-cover bag position-relative">
+                <span class="badge bg-dark text-white">SALE</span>
+                <div class="container d-flex justify-content-cente position-relative">
+                  <div class="row eyes" id="cir7">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png" style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">Bags</p>
+            <h6 class="pt-0">
+              Suede cross body Bag
+            </h6>
+            <p class="text-muted d-inline" style="text-decoration:line-through ;"> $79.00</p>
+            <p class="d-inline" style="color: #ff6f61; text-decoration: none !important;"> $49.00</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ;">
+            <div class="card-bg" id="skirt">
+              <div class="card-img bg-cover skirt position-relative">
+
+                <div class="container d-flex justify-content-cente position-relative">
+                  <div class="row eyes" id="cir8">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png" style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">skirts</p>
+            <h6 class="pt-0">
+              Printed A-line skirt
+            </h6>
+            <p class="text-muted"> $79.00</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="card" style="min-height:250px ; ">
+            <div class="card-bg" id="hls">
+              <div class="card-img bg-cover hls position-relative">
+                <span class="badge">New</span>
+                <div class="container d-flex justify-content-cente position-relative">
+                  <div class="row eyes" id="cir9">
+
+                    <div class="col-4">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/visibility.png" style="margin: 7px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4 g-0">
+                      <div class=" cir text-center justify-content-center">
+                        <img src="images/shopping-cart.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class=" cir text-center">
+                        <img src="images/like.png" width="20px" style="margin: 10px auto;" alt="">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class=" pt-3 pb-1 mb-0 text-muted">Shoes</p>
+            <h6 class="pt-0">
+              Heel strappy Sandals
+            </h6>
+            <p class="text-muted"> $90.00</p>
+          </div>
+
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+            <a class="link-underline">
+              <h6>Discover more </h6>
+            </a>
+            <!-- <hr> -->
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="my-5 py-13 bg-cover" id="count" style="background-image: url(images/countdown.jpg) ;">
+    <div class="container">
+      <div class="row justify-content-end ">
+        <div class="col-lg-6 col-12 col-md-8">
+          <h2> Get-50% from <br> Summer Collection</h2>
+
+          <div class="d-flex mb-9" data-countdown="" data-date="Dec 31, 2025 00:00:00">
+            <div class="text-center">
+              <div class="fs-1 fw-bolder text-primary" id="days">1289</div>
+              <div class="heading-xxs text-muted">Days</div>
+            </div>
+            <div class="px-1 px-md-4">
+              <div class="fs-2 fw-bolder text-primary">:</div>
+            </div>
+            <div class="text-center">
+              <div class="fs-1 fw-bolder text-primary" id="hours">12</div>
+              <div class="heading-xxs text-muted">Hours</div>
+            </div>
+            <div class="px-1 px-md-4">
+              <div class="fs-2 fw-bolder text-primary">:</div>
+            </div>
+            <div class="text-center">
+              <div class="fs-1 fw-bolder text-primary" id="min">21</div>
+              <div class="heading-xxs text-muted">Minutes</div>
+            </div>
+            <div class="px-1 px-md-4">
+              <div class="fs-2 fw-bolder text-primary">:</div>
+            </div>
+            <div class="text-center">
+              <div class="fs-1 fw-bolder text-primary" id="secs">33</div>
+              <div class="heading-xxs text-muted">Seconds</div>
+            </div>
+
+          </div>
+
+          <a class="btn btn-dark" href="shop.html">
+            Shop Now <i class="fa fa-solid  fa-arrow-right ms-2"></i>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+ 
+  <!-- REVIEWS -->
+
+  <section class="my-5" id="review">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h6 class="text-muted"> WHAT BUYERS SAY</h6>
+          <h2> Latest buyers Reviews</h2>
+        </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-12">
+            <!-- Flickity HTML init -->
+          <!-- <div class="carousel" data-flickity='{ }'> -->
+          <div data-flickity='{"pageDots": true}'>
+
+          
+          <div class="carousel-cell" style="top:40px ;">
+            <div class="card bg-drk border border success" style="border-radius: 0 ;">
+              <div class="container">
+              <div class="row">
+                 <div class="col-4 mt-4">
+                  <img src="images/sneak1.jpg" class="" alt="..." width="60px">
+                 </div>
+                 <div class="col-6 mt-4">
+                  <p class="text-muted mb-0"> Shoes</p>
+                  <h6 class="fw-bold"> Low top Sneakers</h6>
+                  <p> ⭐⭐⭐</p>
+                 </div>
+              </div>
+              </div>
+              <div class="card-body">
+                
+                <p class="text-muted">
+                  From creepeth said moved given divide make multiply of him shall itself also above second doesn't unto created saying land herb sea midst night wherein.
+                </p>
+
+                <footer class="fs-xs text-muted">
+                  Logan Edwards, <time datetime="2019-06-01">01 Jun 2019</time>
+                </footer>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-cell" style="top:40px ;">
+            <div class="card bg-drk border border success" style="border-radius: 0 ;">
+              <div class="container">
+              <div class="row">
+                 <div class="col-4 mt-4">
+                  <img src="images/cottom.jpg" class="" alt="..." width="60px">
+                 </div>
+                 <div class="col-6 mt-4">
+                  <p class="text-muted mb-0"> Dresses</p>
+                  <h6 class="fw-bold"> Cotton print Dress</h6>
+                  <p> ⭐⭐⭐⭐⭐</p>
+                 </div>
+              </div>
+              </div>
+              <div class="card-body">
+                
+                <blockquote class="mb-0">
+                  <p class="text-muted">
+                    God every fill great replenish darkness unto. Very open. Likeness their that light. Given under image to. Subdue of shall cattle day fish form saw spirit and given stars, us you whales may, land, saw fill unto.
+                  </p>
+                  <footer class="fs-xs text-muted">
+                    Jane Jefferson, <time datetime="2019-05-29">29 May 2019</time>
+                  </footer>
+                </blockquote>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-cell" style="top:40px ;">
+            <div class="card bg-drk border border success" style="border-radius: 0 ;">
+              <div class="container">
+              <div class="row">
+                 <div class="col-4 mt-4">
+                  <img src="images/shirt.jpg" class="" alt="..." width="60px">
+                 </div>
+                 <div class="col-6 mt-4">
+                  <p class="text-muted mb-0"> T-shirts</p>
+                  <h6 class="fw-bold"> Oversized print T-shirt </h6>
+                  <p> ⭐⭐⭐⭐</p>
+                 </div>
+              </div>
+              </div>
+              <div class="card-body">
+                
+                <blockquote class="mb-0">
+                  <p class="text-muted">
+                    Fill his waters wherein signs likeness waters. Second light gathered appear sixth fourth, seasons behold creeping female.
+                  </p>
+                  <footer class="fs-xs text-muted">
+                    Darrell Baker, <time datetime="2019-05-18">18 May 2019</time>
+                  </footer>
+                </blockquote>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-cell" style="top:40px ;">
+            <div class="card bg-drk border border success" style="border-radius: 0 ;">
+              <div class="container">
+              <div class="row">
+                 <div class="col-4 mt-4">
+                  <img src="images/bag1.jpg" class="" alt="..." width="60px">
+                 </div>
+                 <div class="col-6 mt-4">
+                  <p class="text-muted mb-0"> Bags & Accessories</p>
+                  <h6 class="fw-bold"> Suede cross body Bag</h6>
+                  <p> ⭐⭐⭐⭐</p>
+                 </div>
+              </div>
+              </div>
+              <div class="card-body">
+                <blockquote class="mb-0">
+                  <p class="text-muted">
+                    God every fill great replenish darkness unto. Very open. Likeness their that light. Given under image to. Subdue of shall cattle day fish form saw spirit and given stars.
+                  </p>
+                  <footer class="fs-xs text-muted">
+                    Pavel Doe, <time datetime="2019-05-29">29 May 2019</time>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+         
+
+        </div>
+
+          </div>
+        </div>
+        
+
+
+
+
+
+
+
+        
+
+        
+
+
+      </div>
+    </div>
+  </section>
+
+
+   <!-- BRANDS -->
+
+   <section class="mt-7 py-12" id="brands">
+    <div class="container">
+      <div class="row ">
+        <div class="col-12 text-center">
+          <h2 class="fw-500"> @shopper</h2>
+          <p> Appear, dry there darkness they're seas, dty waters.</p>
+        </div>
+
+      </div>
+      <div class="row pt-5 mb-6 ps-2 mss">
+        <div class="col-6 col-lg-3 col-sm-4 col-md px-1">
+          <div class="card mb-2">
+            <img src="images/brand1.jpg" alt="" class="card-im">
+
+            <a class="card-img-overlay justify-content-center card-img-overlay-hover align-items-center bg-dark-40" >
+              <p class="my-0 fs-xxs text-center text-white">
+                <i class="fa-solid fa-heart"></i> 248 <i class="fa-solid fa-message"></i> 7
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6  col-lg-3 col-sm-4 col-md px-1">
+          <div class="card mb-2">
+            <img src="images/brand2.jpg" alt="">
+
+            <a class="card-img-overlay justify-content-center card-img-overlay-hover align-items-center bg-dark-40" href="blog-post.html">
+              <p class="my-0 fs-xxs text-center text-white">
+                <i class="fa-solid fa-heart"></i> 200 <i class="fa-solid fa-message"></i> 10
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-sm-4 col-md px-1">
+          <div class="card mb-2">
+            <img src="images/brand3.jpg" alt="">
+
+            <a class="card-img-overlay justify-content-center card-img-overlay-hover align-items-center bg-dark-40" href="blog-post.html">
+              <p class="my-0 fs-xxs text-center text-white">
+                <i class="fa-solid fa-heart"></i> 150 <i class="fa-solid fa-message"></i> 5
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-sm-4 col-md px-1">
+          <div class="card mb-2">
+            <img src="images/brandd4.jpg" alt="">
+
+            <a class="card-img-overlay justify-content-center card-img-overlay-hover align-items-center bg-dark-40" href="blog-post.html">
+              <p class="my-0 fs-xxs text-center text-white">
+                <i class="fa-solid fa-heart"></i> 300 <i class="fa-solid fa-message"></i> 70
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-sm-4 col-md px-1">
+          <div class="card mb-2">
+            <img src="images/brand5.jpg" alt="">
+
+            <a class="card-img-overlay justify-content-center card-img-overlay-hover align-items-center bg-dark-40" href="blog-post.html">
+              <p class="my-0 fs-xxs text-center text-white">
+                <i class="fa-solid fa-heart"></i> 400 <i class="fa-solid fa-message"></i> 70
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3 col-sm-4 col-md px-1">
+          <div class="card mb-2">
+            <img src="images/brand6.jpg" alt="">
+
+            <a class="card-img-overlay justify-content-center card-img-overlay-hover align-items-center bg-dark-40" href="blog-post.html">
+              <p class="my-0 fs-xxs text-center text-white">
+                <i class="fa-solid fa-heart"></i> 270 <i class="fa-solid fa-message"></i> 30
+              </p>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row">
+
+       
+
+        <div class="col-4 col-sm-3 text-center col-md ">
+          <img src="images/mango.svg"  alt="" class="img-fluid mb-3 mb-md-0">
+        </div>
+
+        <div class="col-4 col-sm-3 text-center col-md ">
+          <img src="images/zara.svg" alt="" class="img-fluid mb-3 mb-md-0">
+        </div>
+
+        <div class="col-4 col-sm-3 text-center col-md ">
+          <img src="images/reebok.svg" class="img-fluid mb-3 mb-md-0"   alt="">
+        </div>
+
+        <div class="col-4 col-sm-3 text-center col-md ">
+          <img src="images/asos.svg" class="img-fluid mb-3 mb-md-0" alt="">
+        </div>
+
+        <div class="col-4 col-sm-3 text-center col-md ">
+          <img src="images/stradivarius.svg" class="img-fluid mb-3 mb-md-0"  alt="">
+        </div>
+
+        <div class="col-4 col-sm-3 text-center col-md ">
+          <img src="images/adidas.svg"  class="img-fluid mb-3 mb-md-0"  alt="">
+        </div>
+
+        <div class="col-4 col-sm-3 text-center col-md ">
+          <img src="images/bershka.svg" class="img-fluid mb-3 mb-md-0"   alt="">
+        </div>
+        
+     </div>
+
+      
+    </div>
+   </section>
+  
+   <!-- FOOTER -->
+   <footer class="bg-cover bg-darks " style="background-image:url(images/pattern-2.svg) ;">
+       <div class="py-12 border-bottom grey-700">
+          <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 col-md-10 col-xl-6 text-center text-white">
+              <h5 class="mb-5" style="font-size: 1.5rem; "> Want style Ideas and Treats? </h5>
+              <form action="" class="mb-11">
+                <div class="row gx-5 align-items-start">
+                  <div class="col">
+                    <input type="email" name="email" id="email" class="form-control form-control-gray-700 form-control-lg" placeholder="Enter Email*">
+                  </div>
+  
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-gray-500 btn-lg py-3"> Subscribe </button>
+                  </div>
+                </div>
+              </form>
+              
+            </div>
+           </div>
+
+           <div class="row">
+             <div class="col-12 col-md-3 mb-4 ">
+               <h4  style="font-weight:500 ; font-size: 1.7rem; " class="text-white my-3"> Shopper.</h4> 
+               <div class="">
+                <i class="fa-brands fa-facebook-f "></i>
+                <i class="fa-brands fa-youtube mx-2"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram mx-2"></i>
+                <i class="fa-brands fa-medium"></i>
+               </div>
+             </div>
+             <div class="col-6 col-sm">
+              <h6 class="text-white heading-xxs">
+                SUPPORT
+              </h6>
+              <P>Contact Us</P>
+              <p>FAQs</p>
+              <p> Size Guide</p>
+              <p>Shipping & Returns</p>
+             </div>
+             <div class="col-6 col-sm">
+              <h6 class="text-white heading-xxs">
+                SHOP
+              </h6>
+              <P>Men's Shopping</P>
+              <p>Women's Shopping</p>
+              <p>Kid's's Shopping</p>
+              <p>Discounts</p>
+             </div>
+             <div class="col-6 col-sm">
+              <h6 class="text-white heading-xxs">
+                COMPANY
+              </h6>
+              <P>Our Story</P>
+              <p>Careers</p>
+              <p>Terms & Conditions</p>
+              <p>Privacy & Cookie policy</p>
+             </div>
+
+             <div class="col-6 col-sm">
+              <h6 class="text-white heading-xxs">
+                CONTACT
+              </h6>
+              <P>1-202-555-0105</P>
+              <p>1-202-555-0105</p>
+              <p> help@shopper.com</p>
+             
+             </div>
+
+             </div>
+             
+             </div>
+        </div>
+
+        <div class="py-4">
+          <div class="container">
+            <div class="row">
+             <div class="col">
+              <p class="fs-xxs ">@2019 All rights reserved.
+              designed by Unvab</p>
+             </div> 
+             <div class="col-auto">
+              <img src="images/mastercard.svg" alt="">
+              <img src="images/visa.svg" alt="">
+              <img src="images/amex.svg" alt="">
+              <img src="images/paypal.svg" alt="">
+              <img src="images/maestro.svg" alt="">
+              <img src="images/klarna.svg" alt="">
+             </div>
+            </div>
+          </div> 
+        </div>
+
+        </div>
+       </div>
+   </footer>
+
+   
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
